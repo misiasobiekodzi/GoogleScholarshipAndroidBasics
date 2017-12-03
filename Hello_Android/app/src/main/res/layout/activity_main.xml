@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="rajczyk.michalina.HelloAndroid.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:src="@drawable/udacity"
+        android:layout_margin="8dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:scaleType="centerCrop"
+        android:id="@+id/logo"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/android"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:layout_margin="8dp"
+            android:id="@+id/course_icon"/>
+
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Udacity"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/business_name"
+                android:layout_margin="8dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="650-555-5555"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/phone"
+                android:layout_margin="8dp"
+                android:autoLink="phone"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2465 Latham St"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/street"
+                android:layout_margin="8dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mountain View, CA 94043"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/city"
+                android:layout_margin="8dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start adventure now:"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:id="@+id/description"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="udacity.com"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:id="@+id/website"
+        android:textColor="#1E88E5"
+        />
+
+
+
+</LinearLayout>
