@@ -8,9 +8,10 @@
     tools:context="rajczyk.michalina.HelloAndroid.MainActivity">
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="120dp"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
         android:src="@drawable/udacity"
+        android:layout_gravity="center"
         android:layout_margin="8dp"
         android:backgroundTint="@color/colorPrimary"
         android:scaleType="centerCrop"
