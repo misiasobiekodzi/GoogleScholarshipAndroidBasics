@@ -1,0 +1,191 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:text="@string/bride"
+                    android:textSize="14sp"
+                    android:textColor="#616161"
+                    android:fontFamily="sans-serif-medium"
+                    android:layout_marginTop="24dp"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bride"
+                    android:scaleType="centerCrop"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:layout_marginTop="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:text="0"
+                    android:id="@+id/bride_score"
+                    android:textSize="45sp"
+                    android:textColor="#000000"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_margin="16dp"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:text="@string/single_button"
+                    android:backgroundTint="#c2185b"
+                    android:textColor="#ffffff"
+                    android:onClick="addOneForBride"
+                    android:layout_marginTop="8dp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:text="@string/couple_button"
+                    android:backgroundTint="#c2185b"
+                    android:textColor="#ffffff"
+                    android:onClick="addTwoForBride"
+                    android:id="@+id/button"
+                    android:layout_marginTop="8dp"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="16dp"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:text="@string/groom"
+                    android:textSize="14sp"
+                    android:textColor="#616161"
+                    android:fontFamily="sans-serif-medium"
+                    android:layout_marginTop="24dp"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/suit"
+                    android:scaleType="centerCrop"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:layout_marginTop="8dp"/>
+
+                <TextView
+                    android:id="@+id/groom_score"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:text="0"
+                    android:textColor="#000000"
+                    android:textSize="45sp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:text="@string/single_button"
+                    android:backgroundTint="#c2185b"
+                    android:textColor="#ffffff"
+                    android:onClick="addOneForGroom"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:text="@string/couple_button"
+                    android:backgroundTint="#c2185b"
+                    android:textColor="#ffffff"
+                    android:onClick="addTwoForGroom"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical"
+            android:layout_marginTop="24dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/total_number_of_guests"
+                android:textSize="16sp"
+                android:textColor="#000000"
+                android:fontFamily="sans-serif-light"
+                android:layout_marginTop="16dp"
+                />
+
+            <TextView
+                android:id="@+id/total_score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="0"
+                android:textColor="#000000"
+                android:textSize="45sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/reset_button"
+                android:textColor="#c2185b"
+                android:layout_gravity="center"
+                android:onClick="reset"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="8dp"
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>
