@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">QuizzApp</string>
+    <string name="title">Madeira!</string>
+    <string name="subtitle">Honeymoon from 26.06 to 03.07.2018</string>
+    <string name="adventure">Are you ready for the adventure?</string>
+    <string name="boost">Before the journey please answer the questions below:</string>
+    <string name="question1">1. Would you like to drive a car?</string>
+    <string name="rb_yes">Yes</string>
+    <string name="rb_maybe">Maybe</string>
+    <string name="rb_no">No</string>
+    <string name="question2">2. Do you prefer more active or chillout holiday?</string>
+    <string name="rb_active">Active</string>
+    <string name="rb_chillout">Chillout</string>
+    <string name="rb_both">Both</string>
+    <string name="question3">3. What would you like to do?</string>
+    <string name="cb_sunbathing">Sunbathing</string>
+    <string name="cb_SUP">Stand Up Paddle Board</string>
+    <string name="cb_hiking">Hiking</string>
+    <string name="cb_sightseeing">Sightseeing</string>
+    <string name="cb_sufring">Surfing</string>
+    <string name="cb_hanging_around">Hanging around</string>
+    <string name= "cb_wine_tasting">Wine tasting</string>
+    <string name= "cb_sleep">Finally get enought sleep!</string>
+    <string name="question4">4. How many days would you like to spend in Funchal?</string>
+    <string name="hint">Enter number</string>
+    <string name="submit_button">Submit</string>
+
+</resources>
