@@ -120,12 +120,16 @@ public class MainActivity extends AppCompatActivity {
         else {
             int days_in_Funchal = Integer.parseInt(entered_number.getText().toString());
 
-            if (days_in_Funchal > 4 && days_in_Funchal < 8) {
+            if (days_in_Funchal > 3 && days_in_Funchal < 8) {
                 solution_for_question4 = "We don't spend such a long time in Funchal";
             }
             if (days_in_Funchal > 7) {
                 solution_for_question4 = "Unfortunately we are going there only for one week :) ";
-            } else
+            }
+            else if (days_in_Funchal > 3 && days_in_Funchal < 8) {
+                solution_for_question4 = "We don't spend such a long time in Funchal";
+            }
+            else
                 solution_for_question4 = "Perfect amount of time in Funchal!";
         }
     };

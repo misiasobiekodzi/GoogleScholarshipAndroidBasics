@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">Wedding Guests Counter</string>
-    <string name ="bride">Bride</string>
-    <string name="groom">Groom</string>
-    <string name="single_button">Single</string>
-    <string name="couple_button">Couple</string>
-    <string name="reset_button">Reset</string>
-    <string name="total_number_of_guests">Total number of guests:</string>
-</resources>
