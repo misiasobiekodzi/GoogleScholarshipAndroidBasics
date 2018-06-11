@@ -4,233 +4,260 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    android:background="@drawable/sierra"
     android:padding="8dp"
-    android:background="@drawable/sierra">
+    tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
+
         <TextView
+            android:id="@+id/title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/title"
-            android:text="@string/title"
             android:gravity="bottom"
             android:padding="8dp"
+            android:text="@string/title"
             android:textSize="30sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
+
         <TextView
+            android:id="@+id/subtitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/subtitle"
-            android:text="@string/subtitle"
             android:gravity="bottom"
             android:paddingLeft="8dp"
+            android:text="@string/subtitle"
             android:textSize="20sp" />
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="100dp">
 
         </LinearLayout>
+
         <TextView
+            android:id="@+id/adventure"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/adventure"
-            android:text="@string/adventure"
             android:gravity="bottom"
             android:padding="8dp"
+            android:text="@string/adventure"
+            android:textColor="#ffffff"
             android:textSize="20sp"
-            android:textStyle="bold"
-            android:textColor="#ffffff"/>
+            android:textStyle="bold" />
+
         <TextView
+            android:id="@+id/boost"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/boost"
+            android:paddingLeft="8dp"
             android:text="@string/boost"
-            android:textColor="#ffffff"
-            android:paddingLeft="8dp"/>
+            android:textColor="#ffffff" />
+
         <TextView
+            android:id="@+id/question_car"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/question1"
-            android:text="@string/question1"
+            android:padding="8dp"
+            android:text="@string/question1_car"
             android:textColor="#ffffff"
-            android:textStyle="bold"
-            android:padding="8dp"/>
+            android:textStyle="bold" />
+
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center">
+            android:gravity="center"
+            android:orientation="horizontal">
+
             <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:id="@+id/rb_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
                 android:text="@string/rb_yes"
-                android:textColor="#ffffff"
-                android:layout_margin="8dp"/>
+                android:textColor="#ffffff" />
+
             <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:id="@+id/rb_maybe"
-                android:text="@string/rb_maybe"
-                android:textColor="#ffffff"
-                android:layout_margin="8dp"/>
-            <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="@string/rb_maybe"
+                android:textColor="#ffffff" />
+
+            <RadioButton
                 android:id="@+id/rb_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
                 android:text="@string/rb_no"
-                android:textColor="#ffffff"
-                android:layout_margin="8dp"/>
+                android:textColor="#ffffff" />
         </RadioGroup>
 
         <TextView
+            android:id="@+id/question_active"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/question2"
-            android:text="@string/question2"
-            android:textColor="#ffffff"
             android:padding="8dp"
-            android:textStyle="bold"/>
+            android:text="@string/question_active"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center">
+            android:gravity="center"
+            android:orientation="horizontal">
+
             <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:id="@+id/rb_active"
-                android:text="@string/rb_active"
-                android:textColor="#ffffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_margin="8dp"
-                />
+                android:text="@string/rb_active"
+                android:textColor="#ffffff" />
+
             <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:id="@+id/rb_chillout"
-                android:text="@string/rb_chillout"
-                android:textColor="#ffffff"
-                android:layout_margin="8dp"/>
-            <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="@string/rb_chillout"
+                android:textColor="#ffffff" />
+
+            <RadioButton
                 android:id="@+id/rb_both"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
                 android:text="@string/rb_both"
-                android:textColor="#ffffff"
-                android:layout_margin="8dp"/>
+                android:textColor="#ffffff" />
         </RadioGroup>
+
         <TextView
+            android:id="@+id/question_activities"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/question3"
-            android:text="@string/question3"
-            android:textColor="#ffffff"
             android:padding="8dp"
-            android:textStyle="bold"/>
+            android:text="@string/question_activities"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
-                <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-                <CheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/cb_sunbathing"
-                    android:text="@string/cb_sunbathing"
-                    android:textColor="#ffffff"
-                    android:layout_margin="8dp" />
-                <CheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/cb_sup"
-                    android:text="@string/cb_SUP"
-                    android:textColor="#ffffff"
-                    android:layout_margin="8dp"/>
-                <CheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/cb_hiking"
-                    android:text="@string/cb_hiking"
-                    android:textColor="#ffffff"
-                    android:layout_margin="8dp" />
-                <CheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/cb_wine_tasting"
-                    android:text="@string/cb_wine_tasting"
-                    android:textColor="#ffffff"
-                    android:layout_margin="8dp"/>
 
-                </LinearLayout>
-                <LinearLayout
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
+
                 <CheckBox
+                    android:id="@+id/cb_sunbathing"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:text="@string/cb_sunbathing"
+                    android:textColor="#ffffff" />
+
+                <CheckBox
+                    android:id="@+id/cb_sup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:text="@string/cb_SUP"
+                    android:textColor="#ffffff" />
+
+                <CheckBox
+                    android:id="@+id/cb_hiking"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:text="@string/cb_hiking"
+                    android:textColor="#ffffff" />
+
+                <CheckBox
+                    android:id="@+id/cb_wine_tasting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:text="@string/cb_wine_tasting"
+                    android:textColor="#ffffff" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <CheckBox
                     android:id="@+id/cb_sightseeing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
                     android:text="@string/cb_sightseeing"
-                    android:textColor="#ffffff"
-                    android:layout_margin="8dp" />
+                    android:textColor="#ffffff" />
+
                 <CheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:id="@+id/cb_sufring"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
                     android:text="@string/cb_sufring"
-                    android:textColor="#ffffff"
-                    android:layout_margin="8dp" />
+                    android:textColor="#ffffff" />
+
                 <CheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:id="@+id/cb_hanging_around"
-                    android:text="@string/cb_hanging_around"
-                    android:textColor="#ffffff"
-                    android:layout_margin="8dp" />
-                <CheckBox
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:text="@string/cb_hanging_around"
+                    android:textColor="#ffffff" />
+
+                <CheckBox
                     android:id="@+id/cb_sleep"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
                     android:text="@string/cb_sleep"
-                    android:textColor="#ffffff"
-                    android:layout_margin="8dp"/>
-                </LinearLayout>
+                    android:textColor="#ffffff" />
+            </LinearLayout>
         </LinearLayout>
 
         <TextView
+            android:id="@+id/question_how_many_days_in_Funchal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/question4"
-            android:text="@string/question4"
-            android:textColor="#ffffff"
             android:padding="8dp"
-            android:textStyle="bold"/>
+            android:text="@string/question_days_in_Funchal"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
         <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:hint="@string/hint"
             android:id="@+id/enter_number"
-            android:textAlignment="center"
-            android:inputType="number"
-            android:layout_gravity="center"
-            android:textColor="#ffffff"
-            android:padding="8dp"
-            android:textColorHint="#ffffff"/>
-        <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:hint="@string/hint"
+            android:inputType="number"
+            android:padding="8dp"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff" />
+
+        <Button
             android:id="@+id/submit_button"
-            android:text="@string/submit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:gravity="center"
-            android:onClick="submitAnswers"/>
+            android:onClick="submitAnswers"
+            android:text="@string/submit_button" />
 
     </LinearLayout>
 </ScrollView>

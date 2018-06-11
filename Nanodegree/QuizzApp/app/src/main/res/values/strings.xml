@@ -4,15 +4,15 @@
     <string name="subtitle">Honeymoon from 26.06 to 03.07.2018</string>
     <string name="adventure">Are you ready for the adventure?</string>
     <string name="boost">Before the journey please answer the questions below:</string>
-    <string name="question1">1. Would you like to drive a car?</string>
+    <string name="question1_car">1. Would you like to drive a car?</string>
     <string name="rb_yes">Yes</string>
     <string name="rb_maybe">Maybe</string>
     <string name="rb_no">No</string>
-    <string name="question2">2. Do you prefer more active or chillout holiday?</string>
+    <string name="question_active">2. Do you prefer more active or chillout holiday?</string>
     <string name="rb_active">Active</string>
     <string name="rb_chillout">Chillout</string>
     <string name="rb_both">Both</string>
-    <string name="question3">3. What would you like to do?</string>
+    <string name="question_activities">3. What would you like to do?</string>
     <string name="cb_sunbathing">Sunbathing</string>
     <string name="cb_SUP">Stand Up Paddle Board</string>
     <string name="cb_hiking">Hiking</string>
@@ -21,8 +21,23 @@
     <string name="cb_hanging_around">Hanging around</string>
     <string name= "cb_wine_tasting">Wine tasting</string>
     <string name= "cb_sleep">Finally get enought sleep!</string>
-    <string name="question4">4. How many days would you like to spend in Funchal?</string>
+    <string name="question_days_in_Funchal">4. How many days would you like to spend in Funchal?</string>
     <string name="hint">Enter number</string>
     <string name="submit_button">Submit</string>
+    <string name="can_drive">It\'s really cool that you can drive! It is a nice road in front of you!</string>
+    <string name="share_driving">We can share the driving :)</string>
+    <string name="no_car_driving">We should use public transportation instead of renting a car. It will be cheaper!</string>
+    <string name="no_answered_car_question">You did not answered the question about driving the car :(</string>
+    <string name="active_holiday_many_activities">Cool! Active holiday in front of us!</string>
+    <string name="active_holiday_few_activities">Do you have other ideas for our free time?</string>
+    <string name="relax_holiday">Finally we can relax :)</string>
+    <string name="relax_holiday_few_activities">You did not picked many activities. It is a pity since the are many things to do.</string>
+    <string name="both_same_expectations">I have the same expectations :)</string>
+    <string name="both_few_activities">Please share your ideas about our free time.</string>
+    <string name="active_question_not_answered">Answer question 2!</string>
+    <string name="question_Funchal_not_answered">Please specify amount of days in Funchal</string>
+    <string name="too_long_in_Funchal">We don\'t spend such a long time in Funchal</string>
+    <string name="more_than_week">Unfortunately we are going there only for one week :)</string>
+    <string name="perfect_amount_in_Funchal">Perfect amount of time in Funchal!</string>
 
 </resources>

@@ -11,8 +11,9 @@ import android.view.*;
 public class MainActivity extends AppCompatActivity {
 
     String solution_for_question1;
-    String solution_for_question2_and3 = "xoxo";
-    String solution_for_question4 = "zozo";
+    String solution_for_question2_and3;
+    String solution_for_question4;
+    int score = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,16 +28,18 @@ public class MainActivity extends AppCompatActivity {
         RadioButton rb_no = (RadioButton) findViewById(R.id.rb_no);
 
         if(rb_yes.isChecked()){
-            solution_for_question1 = "It's really cool that you can drive! It is a nice road in front of you!";
+            solution_for_question1 = getString(R.string.can_drive);
+            score += 2;
         }
         else if(rb_maybe.isChecked()){
-            solution_for_question1 = "We can share the driving :)";
+            solution_for_question1 = getString(R.string.share_driving);
+            score += 1;
         }
         else if (rb_no.isChecked()){
-            solution_for_question1 = "We should use public transportation instead of renting a car. It will be cheaper!";
+            solution_for_question1 = getString(R.string.no_car_driving);
         }
         else
-            solution_for_question1 = "You did not answered the question about driving the car :(";
+            solution_for_question1 = getString(R.string.no_answered_car_question);
     };
 
     public void getSolution_for_question2_and3(String question2_and_question3){
@@ -55,57 +58,66 @@ public class MainActivity extends AppCompatActivity {
         CheckBox cb_sightseeing = (CheckBox) findViewById(R.id.cb_sightseeing);
         CheckBox cb_surfing = (CheckBox) findViewById(R.id.cb_sufring);
         CheckBox cb_hanging_around = (CheckBox) findViewById(R.id.cb_hanging_around);
-        CheckBox cb_sleep = (CheckBox) findViewById(R.id.cb_wine_tasting);
+        CheckBox cb_sleep = (CheckBox) findViewById(R.id.cb_sleep);
 
         //calculate checked activities
         if (cb_sup.isChecked()) {
             how_many_activities++;
+            score += 1;
         }
         if (cb_hiking.isChecked()){
             how_many_activities++;
+            score += 1;
         }
         if (cb_sightseeing.isChecked()){
             how_many_activities++;
+            score += 1;
         }
         if (cb_surfing.isChecked()){
             how_many_activities++;
+            score += 1;
         }
         if (cb_sunbathing.isChecked()){
             how_many_activities++;
+            score += 1;
         }
         if (cb_wine_tasting.isChecked()){
             how_many_activities++;
+            score += 1;
         }
         if (cb_hanging_around.isChecked()){
             how_many_activities++;
+            score += 1;
         }
         if (cb_sleep.isChecked()){
             how_many_activities++;
+            score += 1;
         }
 
         //active holidays solution
         if (rb_active.isChecked() && how_many_activities >= 4){
-            solution_for_question2_and3 = "Cool! Active holiday in front of us!";
+            solution_for_question2_and3 = getString(R.string.active_holiday_many_activities);
         }
         else if (rb_active.isChecked() && how_many_activities < 4){
-            solution_for_question2_and3 = "Do you have other ideas for our free time?";
+            solution_for_question2_and3 = getString(R.string.active_holiday_few_activities);
         }
         //chillout holidays solution
         if (rb_chillout.isChecked() && how_many_activities >= 3){
-            solution_for_question2_and3 = "Finally we can relax :) ";
+            solution_for_question2_and3 = getString(R.string.relax_holiday);
         }
         else if (rb_chillout.isChecked() && how_many_activities < 3){
-            solution_for_question2_and3 = "You did not picked many activities. It is a pity since the are many things to do.";
+            solution_for_question2_and3 = getString(R.string.relax_holiday_few_activities);
         }
         //mixed holidays solution
         if (rb_both.isChecked() && how_many_activities >=4 ){
-            solution_for_question2_and3 = "I have the same expectations :)";
+            solution_for_question2_and3 = getString(R.string.both_same_expectations);
         }
         else if (rb_both.isChecked() && how_many_activities <4)
-            solution_for_question2_and3 = "Please share your ideas about our free time. ";
+            solution_for_question2_and3 = getString(R.string.both_few_activities);
+        
         //if any of radio button has been checked
         if (!rb_active.isChecked() && !rb_both.isChecked() && !rb_chillout.isChecked())
-            solution_for_question2_and3 = "Answer question 2!";
+            solution_for_question2_and3 = getString(R.string.active_question_not_answered);
     };
 
     public void getSolution_for_question4(String question4){
@@ -114,23 +126,21 @@ public class MainActivity extends AppCompatActivity {
 
         //check if edit text is empty
         if (entered_number.getText().toString().matches("")){
-            solution_for_question4 = "Please specify amount of days in Funchal";
+            solution_for_question4 = getString(R.string.question_Funchal_not_answered);
         }
         //if it is not empty proceed with quiz
         else {
             int days_in_Funchal = Integer.parseInt(entered_number.getText().toString());
 
             if (days_in_Funchal > 3 && days_in_Funchal < 8) {
-                solution_for_question4 = "We don't spend such a long time in Funchal";
+                solution_for_question4 = getString(R.string.too_long_in_Funchal);
             }
-            if (days_in_Funchal > 7) {
-                solution_for_question4 = "Unfortunately we are going there only for one week :) ";
-            }
-            else if (days_in_Funchal > 3 && days_in_Funchal < 8) {
-                solution_for_question4 = "We don't spend such a long time in Funchal";
+            else if (days_in_Funchal > 7) {
+                solution_for_question4 = getString(R.string.more_than_week);
             }
             else
-                solution_for_question4 = "Perfect amount of time in Funchal!";
+                solution_for_question4 = getString(R.string.perfect_amount_in_Funchal);
+                score += 1;
         }
     };
 
@@ -141,11 +151,14 @@ public class MainActivity extends AppCompatActivity {
         getSolution_for_question2_and3(solution_for_question2_and3);
         getSolution_for_question4(solution_for_question4);
 
-        String result = solution_for_question1 + " "+ solution_for_question2_and3 + " " + solution_for_question4;
+        String total_score = Integer.toString(score);
+
+        String result = "You got " + total_score + " points! " + solution_for_question1 + " "+ solution_for_question2_and3 + " " + solution_for_question4;
 
         Toast toast_with_result = Toast.makeText(getApplicationContext(), result, Toast.LENGTH_LONG);
       toast_with_result.show();
 
+        score = 0;
     };
 
 
