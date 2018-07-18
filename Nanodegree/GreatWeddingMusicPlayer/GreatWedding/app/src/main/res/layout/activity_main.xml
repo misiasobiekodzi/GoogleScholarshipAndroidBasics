@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/millenial_pink"
+    android:orientation="vertical"
+    tools:context="rajczyk.michalina.great_wedding.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/dinner_songs_image"
+            style="@style/ImageStyle"
+            android:src="@drawable/dinner_music_image" />
+
+        <TextView
+            android:id="@+id/dinner_songs_text_view"
+            style="@style/CategoryStyle"
+            android:text="@string/dinner_songs_text" />
+    </LinearLayout>
+
+    <View
+        style="@style/LineStyle"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/romantic_songs_image"
+            style="@style/ImageStyle"
+            android:src="@drawable/romantic_music_image" />
+
+        <TextView
+            android:id="@+id/romantic_songs_text_view"
+            style="@style/CategoryStyle"
+            android:text="@string/romantic_songs_text" />
+    </LinearLayout>
+
+    <View
+        style="@style/LineStyle"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/hits_image"
+            style="@style/ImageStyle"
+            android:src="@drawable/hits_image" />
+
+        <TextView
+            android:id="@+id/hits_text_view"
+            style="@style/CategoryStyle"
+            android:text="@string/hits_text" />
+    </LinearLayout>
+
+    <View
+        style="@style/LineStyle"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/wild_party_image"
+            style="@style/ImageStyle"
+            android:src="@drawable/wild_party_image" />
+
+        <TextView
+            android:id="@+id/wild_party_text_view"
+            style="@style/CategoryStyle"
+            android:text="@string/wild_party_text" />
+    </LinearLayout>
+
+    <View
+        style="@style/LineStyle"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/your_playlist_image"
+            style="@style/ImageStyle"
+            android:src="@drawable/playlist_image" />
+
+        <TextView
+            android:id="@+id/your_playlist_text_view"
+            style="@style/CategoryStyle"
+            android:text="@string/your_playlist_text" />
+    </LinearLayout>
+
+    <View
+        style="@style/LineStyle"/>
+
+</LinearLayout>

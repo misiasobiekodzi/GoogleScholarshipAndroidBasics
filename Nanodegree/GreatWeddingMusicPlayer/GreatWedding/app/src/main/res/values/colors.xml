@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="marsala">#491928</color>
+    <color name="millenial_pink">#fad9d2</color>
+    <color name="light_pink">#ffebee</color>
+    <color name="greenery">#013220</color>
+    <color name="mr_brown">#725b53</color>
+    <color name="amber">#fff8e1</color>
+    <color name="indigo">#e8eaf6</color>
+    <color name="orange">#ff9e80</color>
+    <color name="grey">#fafafa</color>
+
+</resources>
