@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GreatWedding</string>
+    <string name="dinner_songs_text">Dinner music</string>
+    <string name="romantic_songs_text">Romantic music</string>
+    <string name="hits_text">Hits</string>
+    <string name="wild_party_text">Wild party</string>
+    <string name="your_playlist_text">Your playlist</string>
+    <string name="add_button_warning">Add to playlist feature will be implemented later</string>
+    <string name="play_button_warning">Play feature will be implemented later</string>
+</resources>
