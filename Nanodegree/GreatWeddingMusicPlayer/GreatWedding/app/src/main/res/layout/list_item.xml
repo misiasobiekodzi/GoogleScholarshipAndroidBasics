@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:paddingLeft="16dp"
+        android:paddingLeft="@dimen/single_song_padding"
         android:layout_weight="1">
 
         <TextView
@@ -39,18 +39,18 @@
 
     <ImageView
         android:id="@+id/add_image"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="@dimen/music_icon_size"
+        android:layout_height="@dimen/music_icon_size"
         style="@style/ImageStyle"
         android:src="@drawable/add_image"
         android:layout_gravity="center"
-        android:layout_marginRight="8dp"/>
+        android:layout_marginRight="@dimen/music_icon_margin"/>
     <ImageView
         android:id="@+id/play_image"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="@dimen/music_icon_size"
+        android:layout_height="@dimen/music_icon_size"
         style="@style/ImageStyle"
         android:src="@drawable/play_image"
         android:layout_gravity="center"
-        android:layout_marginRight="8dp"/>
+        android:layout_marginRight="@dimen/music_icon_margin"/>
 </LinearLayout>

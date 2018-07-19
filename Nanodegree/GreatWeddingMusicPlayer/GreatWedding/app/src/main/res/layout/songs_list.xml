@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ListView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/list"
-    android:orientation="vertical"
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical" >
+
+    <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="15"/>
+
+<TextView
+    android:id="@+id/go_back_button"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" />
+    android:layout_height="wrap_content"
+    android:text="@string/go_back_button_"
+    android:layout_weight="1"
+    style="@style/CategoryStyle"
+    android:layout_gravity="top"
+    android:textAlignment="center"
+    android:textAllCaps="true"
+    android:textColor="@color/marsala"
+    />
+
+</LinearLayout>
+
+
+

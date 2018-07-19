@@ -1,8 +1,11 @@
 package rajczyk.michalina.great_wedding;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 
@@ -22,5 +25,14 @@ public class YourPlaylistActivity extends AppCompatActivity {
         ListView listView = (ListView) findViewById(R.id.list);
 
         listView.setAdapter(songAdapter);
+
+        TextView goBackButton = (TextView) findViewById(R.id.go_back_button);
+        goBackButton.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                Intent goBackIntent = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(goBackIntent);
+            }
+        });
     }
 }

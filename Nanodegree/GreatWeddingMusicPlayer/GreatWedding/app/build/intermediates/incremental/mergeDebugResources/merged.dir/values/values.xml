@@ -557,6 +557,8 @@
     <item format="float" name="hint_pressed_alpha_material_light" type="dimen">0.54</item>
     <dimen name="list_item_height">88dp</dimen>
     <dimen name="main_screen_icon_width">50dp</dimen>
+    <dimen name="music_icon_margin">8dp</dimen>
+    <dimen name="music_icon_size">50dp</dimen>
     <dimen name="notification_action_icon_size">32dp</dimen>
     <dimen name="notification_action_text_size">13sp</dimen>
     <dimen name="notification_big_circle_margin">12dp</dimen>
@@ -572,6 +574,7 @@
     <dimen name="notification_subtext_size">13sp</dimen>
     <dimen name="notification_top_pad">10dp</dimen>
     <dimen name="notification_top_pad_large_text">5dp</dimen>
+    <dimen name="single_song_padding">16dp</dimen>
     <dimen name="tooltip_corner_radius">2dp</dimen>
     <dimen name="tooltip_horizontal_padding">16dp</dimen>
     <dimen name="tooltip_margin">8dp</dimen>
@@ -633,13 +636,19 @@
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="add_button_warning">Add to playlist feature will be implemented later</string>
     <string name="app_name">GreatWedding</string>
+    <string name="dinner_music_label">Dinner Music</string>
     <string name="dinner_songs_text">Dinner music</string>
+    <string name="go_back_button_">Go back</string>
+    <string name="hits_label">Hits</string>
     <string name="hits_text">Hits</string>
     <string name="play_button_warning">Play feature will be implemented later</string>
+    <string name="romantic_music_label">Romantic Music</string>
     <string name="romantic_songs_text">Romantic music</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="wild_party_music_label">Wild Party Music</string>
     <string name="wild_party_text">Wild party</string>
+    <string name="your_playlist_label">Your Wedding Playlist</string>
     <string name="your_playlist_text">Your playlist</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>

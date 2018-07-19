@@ -16,11 +16,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DinnerMusicActivity" />
-        <activity android:name=".RomanticMusicActivity" />
-        <activity android:name=".HitsActivity" />
-        <activity android:name=".WildPartyActivity" />
-        <activity android:name=".YourPlaylistActivity" />
+        <activity
+            android:name=".DinnerMusicActivity"
+            android:label="@string/dinner_music_label" />
+        <activity
+            android:name=".RomanticMusicActivity"
+            android:label="@string/romantic_music_label" />
+        <activity
+            android:name=".HitsActivity"
+            android:label="@string/hits_label" />
+        <activity
+            android:name=".WildPartyActivity"
+            android:label="@string/wild_party_music_label" />
+        <activity
+            android:name=".YourPlaylistActivity"
+            android:label="@string/your_playlist_label" />
     </application>
 
 </manifest>

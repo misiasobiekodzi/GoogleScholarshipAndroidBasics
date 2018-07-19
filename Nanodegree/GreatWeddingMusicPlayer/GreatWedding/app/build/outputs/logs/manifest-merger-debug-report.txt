@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Misia\Desktop\Android_Google_Scholarship\Nanodegree\GreatWeddingMusicPlayer\GreatWedding\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\Misia\Desktop\Android_Google_Scholarship\Nanodegree\GreatWeddingMusicPlayer\GreatWedding\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\Misia\Desktop\Android_Google_Scholarship\Nanodegree\GreatWeddingMusicPlayer\GreatWedding\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\Misia\Desktop\Android_Google_Scholarship\Nanodegree\GreatWeddingMusicPlayer\GreatWedding\app\src\main\AndroidManifest.xml:2:1-26:12
+ADDED from C:\Users\Misia\Desktop\Android_Google_Scholarship\Nanodegree\GreatWeddingMusicPlayer\GreatWedding\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\Misia\Desktop\Android_Google_Scholarship\Nanodegree\GreatWeddingMusicPlayer\GreatWedding\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\Misia\Desktop\Android_Google_Scholarship\Nanodegree\GreatWeddingMusicPlayer\GreatWedding\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\Misia\Desktop\Android_Google_Scholarship\Nanodegree\GreatWeddingMusicPlayer\GreatWedding\app\src\main\AndroidManifest.xml:2:1-36:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Misia\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\1eb2c43357c5dbca9d49f6a997ff6ba6\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Misia\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\6b04ed501c9d274f0628394cd6b1a0a5\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Misia\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\b5cf0bd0b87a5ec4339eb31d5da91050\AndroidManifest.xml:17:1-22:12
@@ -16,25 +16,25 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Misia\.gradle\
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Misia\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\04f3d216a69646450f8c9d7afd803dc5\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Misia\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\f9292bd504b12ed609d399f5f2b2a53a\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Misia\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\838d558f38fc075fde82b133db5f2b72\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Misia\Desktop\Android_Google_Scholarship\Nanodegree\GreatWeddingMusicPlayer\GreatWedding\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\Misia\Desktop\Android_Google_Scholarship\Nanodegree\GreatWeddingMusicPlayer\GreatWedding\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\Misia\Desktop\Android_Google_Scholarship\Nanodegree\GreatWeddingMusicPlayer\GreatWedding\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\Misia\Desktop\Android_Google_Scholarship\Nanodegree\GreatWeddingMusicPlayer\GreatWedding\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\Misia\Desktop\Android_Google_Scholarship\Nanodegree\GreatWeddingMusicPlayer\GreatWedding\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\Misia\Desktop\Android_Google_Scholarship\Nanodegree\GreatWeddingMusicPlayer\GreatWedding\app\src\main\AndroidManifest.xml:2:1-36:12
 	package
 		ADDED from C:\Users\Misia\Desktop\Android_Google_Scholarship\Nanodegree\GreatWeddingMusicPlayer\GreatWedding\app\src\main\AndroidManifest.xml:3:5-46
 		INJECTED from C:\Users\Misia\Desktop\Android_Google_Scholarship\Nanodegree\GreatWeddingMusicPlayer\GreatWedding\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Misia\Desktop\Android_Google_Scholarship\Nanodegree\GreatWeddingMusicPlayer\GreatWedding\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Misia\Desktop\Android_Google_Scholarship\Nanodegree\GreatWeddingMusicPlayer\GreatWedding\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Misia\Desktop\Android_Google_Scholarship\Nanodegree\GreatWeddingMusicPlayer\GreatWedding\app\src\main\AndroidManifest.xml:2:1-26:12
+		ADDED from C:\Users\Misia\Desktop\Android_Google_Scholarship\Nanodegree\GreatWeddingMusicPlayer\GreatWedding\app\src\main\AndroidManifest.xml:2:1-36:12
 		INJECTED from C:\Users\Misia\Desktop\Android_Google_Scholarship\Nanodegree\GreatWeddingMusicPlayer\GreatWedding\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Misia\Desktop\Android_Google_Scholarship\Nanodegree\GreatWeddingMusicPlayer\GreatWedding\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Misia\Desktop\Android_Google_Scholarship\Nanodegree\GreatWeddingMusicPlayer\GreatWedding\app\src\main\AndroidManifest.xml:2:1-26:12
+		ADDED from C:\Users\Misia\Desktop\Android_Google_Scholarship\Nanodegree\GreatWeddingMusicPlayer\GreatWedding\app\src\main\AndroidManifest.xml:2:1-36:12
 		INJECTED from C:\Users\Misia\Desktop\Android_Google_Scholarship\Nanodegree\GreatWeddingMusicPlayer\GreatWedding\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Misia\Desktop\Android_Google_Scholarship\Nanodegree\GreatWeddingMusicPlayer\GreatWedding\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\Misia\Desktop\Android_Google_Scholarship\Nanodegree\GreatWeddingMusicPlayer\GreatWedding\app\src\main\AndroidManifest.xml:5:5-24:19
+ADDED from C:\Users\Misia\Desktop\Android_Google_Scholarship\Nanodegree\GreatWeddingMusicPlayer\GreatWedding\app\src\main\AndroidManifest.xml:5:5-34:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Misia\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\6b04ed501c9d274f0628394cd6b1a0a5\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Misia\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\6b04ed501c9d274f0628394cd6b1a0a5\AndroidManifest.xml:9:5-20
 	android:supportsRtl
@@ -64,25 +64,35 @@ ADDED from C:\Users\Misia\Desktop\Android_Google_Scholarship\Nanodegree\GreatWed
 	android:name
 		ADDED from C:\Users\Misia\Desktop\Android_Google_Scholarship\Nanodegree\GreatWeddingMusicPlayer\GreatWedding\app\src\main\AndroidManifest.xml:16:27-74
 activity#rajczyk.michalina.great_wedding.DinnerMusicActivity
-ADDED from C:\Users\Misia\Desktop\Android_Google_Scholarship\Nanodegree\GreatWeddingMusicPlayer\GreatWedding\app\src\main\AndroidManifest.xml:19:9-57
+ADDED from C:\Users\Misia\Desktop\Android_Google_Scholarship\Nanodegree\GreatWeddingMusicPlayer\GreatWedding\app\src\main\AndroidManifest.xml:19:9-21:58
+	android:label
+		ADDED from C:\Users\Misia\Desktop\Android_Google_Scholarship\Nanodegree\GreatWeddingMusicPlayer\GreatWedding\app\src\main\AndroidManifest.xml:21:13-55
 	android:name
-		ADDED from C:\Users\Misia\Desktop\Android_Google_Scholarship\Nanodegree\GreatWeddingMusicPlayer\GreatWedding\app\src\main\AndroidManifest.xml:19:19-54
+		ADDED from C:\Users\Misia\Desktop\Android_Google_Scholarship\Nanodegree\GreatWeddingMusicPlayer\GreatWedding\app\src\main\AndroidManifest.xml:20:13-48
 activity#rajczyk.michalina.great_wedding.RomanticMusicActivity
-ADDED from C:\Users\Misia\Desktop\Android_Google_Scholarship\Nanodegree\GreatWeddingMusicPlayer\GreatWedding\app\src\main\AndroidManifest.xml:20:9-59
+ADDED from C:\Users\Misia\Desktop\Android_Google_Scholarship\Nanodegree\GreatWeddingMusicPlayer\GreatWedding\app\src\main\AndroidManifest.xml:22:9-24:60
+	android:label
+		ADDED from C:\Users\Misia\Desktop\Android_Google_Scholarship\Nanodegree\GreatWeddingMusicPlayer\GreatWedding\app\src\main\AndroidManifest.xml:24:13-57
 	android:name
-		ADDED from C:\Users\Misia\Desktop\Android_Google_Scholarship\Nanodegree\GreatWeddingMusicPlayer\GreatWedding\app\src\main\AndroidManifest.xml:20:19-56
+		ADDED from C:\Users\Misia\Desktop\Android_Google_Scholarship\Nanodegree\GreatWeddingMusicPlayer\GreatWedding\app\src\main\AndroidManifest.xml:23:13-50
 activity#rajczyk.michalina.great_wedding.HitsActivity
-ADDED from C:\Users\Misia\Desktop\Android_Google_Scholarship\Nanodegree\GreatWeddingMusicPlayer\GreatWedding\app\src\main\AndroidManifest.xml:21:9-50
+ADDED from C:\Users\Misia\Desktop\Android_Google_Scholarship\Nanodegree\GreatWeddingMusicPlayer\GreatWedding\app\src\main\AndroidManifest.xml:25:9-27:50
+	android:label
+		ADDED from C:\Users\Misia\Desktop\Android_Google_Scholarship\Nanodegree\GreatWeddingMusicPlayer\GreatWedding\app\src\main\AndroidManifest.xml:27:13-47
 	android:name
-		ADDED from C:\Users\Misia\Desktop\Android_Google_Scholarship\Nanodegree\GreatWeddingMusicPlayer\GreatWedding\app\src\main\AndroidManifest.xml:21:19-47
+		ADDED from C:\Users\Misia\Desktop\Android_Google_Scholarship\Nanodegree\GreatWeddingMusicPlayer\GreatWedding\app\src\main\AndroidManifest.xml:26:13-41
 activity#rajczyk.michalina.great_wedding.WildPartyActivity
-ADDED from C:\Users\Misia\Desktop\Android_Google_Scholarship\Nanodegree\GreatWeddingMusicPlayer\GreatWedding\app\src\main\AndroidManifest.xml:22:9-55
+ADDED from C:\Users\Misia\Desktop\Android_Google_Scholarship\Nanodegree\GreatWeddingMusicPlayer\GreatWedding\app\src\main\AndroidManifest.xml:28:9-30:62
+	android:label
+		ADDED from C:\Users\Misia\Desktop\Android_Google_Scholarship\Nanodegree\GreatWeddingMusicPlayer\GreatWedding\app\src\main\AndroidManifest.xml:30:13-59
 	android:name
-		ADDED from C:\Users\Misia\Desktop\Android_Google_Scholarship\Nanodegree\GreatWeddingMusicPlayer\GreatWedding\app\src\main\AndroidManifest.xml:22:19-52
+		ADDED from C:\Users\Misia\Desktop\Android_Google_Scholarship\Nanodegree\GreatWeddingMusicPlayer\GreatWedding\app\src\main\AndroidManifest.xml:29:13-46
 activity#rajczyk.michalina.great_wedding.YourPlaylistActivity
-ADDED from C:\Users\Misia\Desktop\Android_Google_Scholarship\Nanodegree\GreatWeddingMusicPlayer\GreatWedding\app\src\main\AndroidManifest.xml:23:9-58
+ADDED from C:\Users\Misia\Desktop\Android_Google_Scholarship\Nanodegree\GreatWeddingMusicPlayer\GreatWedding\app\src\main\AndroidManifest.xml:31:9-33:59
+	android:label
+		ADDED from C:\Users\Misia\Desktop\Android_Google_Scholarship\Nanodegree\GreatWeddingMusicPlayer\GreatWedding\app\src\main\AndroidManifest.xml:33:13-56
 	android:name
-		ADDED from C:\Users\Misia\Desktop\Android_Google_Scholarship\Nanodegree\GreatWeddingMusicPlayer\GreatWedding\app\src\main\AndroidManifest.xml:23:19-55
+		ADDED from C:\Users\Misia\Desktop\Android_Google_Scholarship\Nanodegree\GreatWeddingMusicPlayer\GreatWedding\app\src\main\AndroidManifest.xml:32:13-49
 uses-sdk
 INJECTED from C:\Users\Misia\Desktop\Android_Google_Scholarship\Nanodegree\GreatWeddingMusicPlayer\GreatWedding\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Misia\Desktop\Android_Google_Scholarship\Nanodegree\GreatWeddingMusicPlayer\GreatWedding\app\src\main\AndroidManifest.xml

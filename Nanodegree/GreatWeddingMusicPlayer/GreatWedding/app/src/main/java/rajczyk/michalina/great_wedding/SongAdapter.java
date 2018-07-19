@@ -18,7 +18,6 @@ import java.util.ArrayList;
 public class SongAdapter extends ArrayAdapter<Song> {
 
     private int mBackgroundColorResourceId;
-    private ImageView mAddImage;
 
     public SongAdapter(Activity context, ArrayList<Song> songs, int backgroundColorResourceId) {
         super(context, 0, songs);
@@ -36,7 +35,7 @@ public class SongAdapter extends ArrayAdapter<Song> {
         }
 
         // Get the {@link Song} object located at this position in the list
-        Song currentSong = getItem(position);
+        final Song currentSong = getItem(position);
 
         // Find the TextView in the list_item.xml layout with the ID version_name
         TextView songTitleTextView = (TextView) listItemView.findViewById(R.id.song_title_text_view);
@@ -61,7 +60,8 @@ public class SongAdapter extends ArrayAdapter<Song> {
         ImageView playButton = listItemView.findViewById(R.id.play_image);
         playButton.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
-                Toast.makeText(getContext(), R.string.play_button_warning, Toast.LENGTH_SHORT).show();
+                Toast.makeText(getContext(), "Let's try...", Toast.LENGTH_SHORT).show();
+                //playAudio(currentSong.getSongURL());
             }
         });
 
@@ -69,4 +69,6 @@ public class SongAdapter extends ArrayAdapter<Song> {
         // so that it can be shown in the ListView
         return listItemView;
     }
+
 }
+

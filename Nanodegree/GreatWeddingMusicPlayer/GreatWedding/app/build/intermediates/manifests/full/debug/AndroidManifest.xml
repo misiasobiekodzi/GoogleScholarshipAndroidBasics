@@ -23,11 +23,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="rajczyk.michalina.great_wedding.DinnerMusicActivity" />
-        <activity android:name="rajczyk.michalina.great_wedding.RomanticMusicActivity" />
-        <activity android:name="rajczyk.michalina.great_wedding.HitsActivity" />
-        <activity android:name="rajczyk.michalina.great_wedding.WildPartyActivity" />
-        <activity android:name="rajczyk.michalina.great_wedding.YourPlaylistActivity" />
+        <activity
+            android:name="rajczyk.michalina.great_wedding.DinnerMusicActivity"
+            android:label="@string/dinner_music_label" />
+        <activity
+            android:name="rajczyk.michalina.great_wedding.RomanticMusicActivity"
+            android:label="@string/romantic_music_label" />
+        <activity
+            android:name="rajczyk.michalina.great_wedding.HitsActivity"
+            android:label="@string/hits_label" />
+        <activity
+            android:name="rajczyk.michalina.great_wedding.WildPartyActivity"
+            android:label="@string/wild_party_music_label" />
+        <activity
+            android:name="rajczyk.michalina.great_wedding.YourPlaylistActivity"
+            android:label="@string/your_playlist_label" />
     </application>
 
 </manifest>

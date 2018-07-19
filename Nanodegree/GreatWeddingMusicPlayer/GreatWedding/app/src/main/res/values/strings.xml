@@ -7,4 +7,10 @@
     <string name="your_playlist_text">Your playlist</string>
     <string name="add_button_warning">Add to playlist feature will be implemented later</string>
     <string name="play_button_warning">Play feature will be implemented later</string>
+    <string name="dinner_music_label">Dinner Music</string>
+    <string name="romantic_music_label">Romantic Music</string>
+    <string name="hits_label">Hits</string>
+    <string name="wild_party_music_label">Wild Party Music</string>
+    <string name="your_playlist_label">Your Wedding Playlist</string>
+    <string name="go_back_button_">Go back</string>
 </resources>
