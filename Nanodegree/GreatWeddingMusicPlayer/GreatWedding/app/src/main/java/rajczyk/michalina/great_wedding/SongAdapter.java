@@ -10,7 +10,6 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -18,10 +17,12 @@ import java.util.ArrayList;
 public class SongAdapter extends ArrayAdapter<Song> {
 
     private int mBackgroundColorResourceId;
+    private ClickListener mClickListener;
 
-    public SongAdapter(Activity context, ArrayList<Song> songs, int backgroundColorResourceId) {
+    public SongAdapter(Activity context, ArrayList<Song> songs, int backgroundColorResourceId, ClickListener clickListener) {
         super(context, 0, songs);
         mBackgroundColorResourceId = backgroundColorResourceId;
+        mClickListener = clickListener;
     }
 
     @NonNull
@@ -53,21 +54,26 @@ public class SongAdapter extends ArrayAdapter<Song> {
         ImageView addButton = listItemView.findViewById(R.id.add_image);
         addButton.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
-                Toast.makeText(getContext(), R.string.add_button_warning, Toast.LENGTH_SHORT).show();
+                mClickListener.onAddClick(currentSong);
             }
         });
 
         ImageView playButton = listItemView.findViewById(R.id.play_image);
         playButton.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
-                Toast.makeText(getContext(), "Let's try...", Toast.LENGTH_SHORT).show();
-                //playAudio(currentSong.getSongURL());
+                mClickListener.onPlayClick(currentSong);
             }
         });
+
 
         // Return the whole list item layout (containing 2 TextViews + 2 ImageViews)
         // so that it can be shown in the ListView
         return listItemView;
+    }
+
+    public interface ClickListener {
+        void onPlayClick(Song song);
+        void onAddClick(Song song);
     }
 
 }
